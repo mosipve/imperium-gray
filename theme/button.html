@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Html5,Css3,Bootstrap4,Fontawesome5,MultiplePage">
+	<meta name="author" content="MAtm">
+
+	<title>Button - Dark</title>
+
+	<link href="assets/font/fontawesome/css/all.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/waves.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/animate.css/animate.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/Ui.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body id="buttonS" class="container-fluid bg-black opensans">
+
+
+	
+
+	<nav id="navbarColor" class="navbar navbar-expand-lg top-nav navbar-light row sticky-top oswald wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+
+		<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarsTop" aria-controls="navbarsTop" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fas fa-tasks fa-2x text-dark"></i>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarsTop">
+
+			<div id="mySearchBoxId" class="searchbox">
+				<span class="cls-btn" onclick="closeSearch()" title="Close Overlay">×</span>
+				<div class="searchbox-content">
+					<form>
+						<input id="searchBoxId" type="text" placeholder="Search.." name="search">
+						<button type="submit"><i class="fa fa-search"></i></button>
+					</form>
+				</div>
+			</div>
+			<button class="opn-btn mr-3" onclick="openSearch()">
+				<i class="fab fa-sistrix"></i>
+			</button>
+
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link waves-effect" href="index.html">Home
+						<span class="sr-only">(current)</span>
+					</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link waves-effect" href="Pricing.html">Pricing</a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle waves-effect" href="#" id="navbar1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+					<div class="dropdown-menu" aria-labelledby="navbar1">
+						<a class="dropdown-item waves-effect linear-nav" href="blog.html">Blog</a>
+						<a class="dropdown-item waves-effect linear-nav" href="blog-detail.html">Blog Detail</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle waves-effect" href="#" id="navbar2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Features</a>
+					<div class="dropdown-menu" aria-labelledby="navbar2">
+						<a class="dropdown-item waves-effect linear-nav" href="Typography.html">Typography</a>
+						<a class="dropdown-item waves-effect linear-nav" href="404.html">404</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle waves-effect activeted" href="#" id="navbar3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						UI Element
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbar3">
+						<a class="dropdown-item waves-effect linear-nav" href="button.html">Buttons</a>
+						<a class="dropdown-item waves-effect linear-nav" href="cards.html">Cards</a>
+						<a class="dropdown-item waves-effect linear-nav" href="forms.html">Forms</a>
+						<a class="dropdown-item waves-effect linear-nav" href="gallery.html">Gallery</a>
+					</div>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link waves-effect" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+
+		<ul class="logoDark">
+			<li class="navbar-brand">
+				<a class="nav-link waves-effect imperor" href="../index.html">ImperiuM</a>
+			</li>
+		</ul>
+	</nav>
+
+
+	<header class="row">
+
+
+		<div class="col-sm-12">
+			<div class="row header-img wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
+				<img src="assets/image/902.png" class="img-fluid wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s" alt="image card">
+			</div>
+		</div>
+
+		<!-- My simple Jumbotron -->
+		<div class="col-sm-12 text-center text-light my-5 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0s">
+			<h5 class="">Amazing Features</h5>
+			<h1 class="display-4 font-weight-bold">a Complete Unique Based Website</h1>
+			<p class="mt-4 small col-sm-6 offset-sm-3 pull-sm-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<button class="btn mt-3 btn-join">
+				<span>Start and Join us</span>
+			</button>
+		</div>
+	</header>
+
+
+
+
+
+
+
+	<main class="col-sm-12 my-5 oswald">
+		<div class="row">
+
+			<div id="buttonBasic" class="col-sm-6 my-5 mx-auto">
+				<div class="card">
+					<h2 class="px-5 pt-5 card-title m-0">Button Styles</h2>
+					<p class="small text-danger mx-5 m-0">Hover or Click to see more effect</p>
+
+					<div class="card-body mt-5">
+						<h6 class="card-title">Rounded</h6>
+						<button type="button" class="btn btn-primary">Primary</button>
+						<button type="button" class="btn btn-secondary">Secondary</button>
+						<button type="button" class="btn btn-success">Success</button>
+						<button type="button" class="btn btn-info">Info</button>
+						<button type="button" class="btn btn-warning">Warning</button>
+						<button type="button" class="btn btn-danger">Danger</button>
+						<button type="button" class="btn btn-dark">Dark</button>
+						<button type="button" class="btn btn-light">Light</button>
+					</div>   
+
+					<div class="card-body">
+						<h6 class="card-title">Normal</h6>
+						<button type="button" class="btn btn-primary rounded-0">Primary</button>
+						<button type="button" class="btn btn-secondary rounded-0">Secondary</button>
+						<button type="button" class="btn btn-success rounded-0">Success</button>
+						<button type="button" class="btn btn-info rounded-0">Info</button>
+						<button type="button" class="btn btn-warning rounded-0">Warning</button>
+						<button type="button" class="btn btn-danger rounded-0">Danger</button>
+						<button type="button" class="btn btn-dark rounded-0">Dark</button>
+						<button type="button" class="btn btn-light rounded-0">Light</button>
+					</div>
+
+					<div class="card-body">
+						<h6 class="card-title">Flip</h6>
+						<button type="button" class="btn btn-primary flip">Primary</button>
+						<button type="button" class="btn btn-secondary flip">Secondary</button>
+						<button type="button" class="btn btn-success flip">Success</button>
+						<button type="button" class="btn btn-info flip">Info</button>
+						<button type="button" class="btn btn-warning flip">Warning</button>
+						<button type="button" class="btn btn-danger flip">Danger</button>
+						<button type="button" class="btn btn-dark flip">Dark</button>
+						<button type="button" class="btn btn-light flip">Light</button>
+					</div>
+
+					<div class="card-body">
+						<h6 class="card-title">Bounce</h6>
+						<button type="button" class="btn btn-primary animated my-bounce">Primary</button>
+						<button type="button" class="btn btn-secondary animated my-bounce">Secondary</button>
+						<button type="button" class="btn btn-success animated my-bounce">Success</button>
+						<button type="button" class="btn btn-info animated my-bounce">Info</button>
+						<button type="button" class="btn btn-warning animated my-bounce">Warning</button>
+						<button type="button" class="btn btn-danger animated my-bounce">Danger</button>
+						<button type="button" class="btn btn-dark animated my-bounce">Dark</button>
+						<button type="button" class="btn btn-light animated my-bounce">Light</button>
+					</div>
+
+					<div class="card-body">
+						<h6 class="card-title">Waves Effect</h6>
+						<button type="button" class="btn btn-primary waves-effect">Primary</button>
+						<button type="button" class="btn btn-secondary waves-effect">Secondary</button>
+						<button type="button" class="btn btn-success waves-effect">Success</button>
+						<button type="button" class="btn btn-info waves-effect">Info</button>
+						<button type="button" class="btn btn-warning waves-effect">Warning</button>
+						<button type="button" class="btn btn-danger waves-effect">Danger</button>
+						<button type="button" class="btn btn-dark waves-effect">Dark</button>
+						<button type="button" class="btn btn-light waves-effect">Light</button>
+						<div class="card-text">
+							<p class="small text-danger m-0">You can use the waves-effect for all Elements</p>
+						</div>
+					</div>  
+
+					<div class="card-body">
+						<h6 class="card-title">Waves Effect Light</h6>
+						<button type="button" class="btn btn-primary waves-effect waves-light">Primary</button>
+						<button type="button" class="btn btn-secondary waves-effect waves-light">Secondary</button>
+						<button type="button" class="btn btn-success waves-effect waves-light">Success</button>
+						<button type="button" class="btn btn-info waves-effect waves-light">Info</button>
+						<button type="button" class="btn btn-warning waves-effect waves-light">Warning</button>
+						<button type="button" class="btn btn-danger waves-effect waves-light">Danger</button>
+						<button type="button" class="btn btn-dark waves-effect waves-light">Dark</button>
+						<button type="button" class="btn btn-light waves-effect waves-light">Light</button>
+						<div class="card-text">
+							<p class="small text-danger m-0">also you can use waves-light affter .waves-effect for all Elemetns</p>
+						</div>
+					</div>   
+
+					<div class="card-body">
+						<h6 class="card-title">Flash</h6>
+						<button type="button" class="btn btn-primary animated my-flash">Primary</button>
+						<button type="button" class="btn btn-secondary animated my-flash">Secondary</button>
+						<button type="button" class="btn btn-success animated my-flash">Success</button>
+						<button type="button" class="btn btn-info animated my-flash">Info</button>
+						<button type="button" class="btn btn-warning animated my-flash">Warning</button>
+						<button type="button" class="btn btn-danger animated my-flash">Danger</button>
+						<button type="button" class="btn btn-dark animated my-flash">Dark</button>
+						<button type="button" class="btn btn-light animated my-flash">Light</button>
+					</div>   
+
+					<div class="card-body">
+						<h6 class="card-title">Head Shake</h6>
+						<button type="button" class="btn btn-primary animated my-headShake">Primary</button>
+						<button type="button" class="btn btn-secondary animated my-headShake">Secondary</button>
+						<button type="button" class="btn btn-success animated my-headShake">Success</button>
+						<button type="button" class="btn btn-info animated my-headShake">Info</button>
+						<button type="button" class="btn btn-warning animated my-headShake">Warning</button>
+						<button type="button" class="btn btn-danger animated my-headShake">Danger</button>
+						<button type="button" class="btn btn-dark animated my-headShake">Dark</button>
+						<button type="button" class="btn btn-light animated my-headShake">Light</button>
+					</div> 
+
+					<div class="card-body">
+						<h6 class="card-title">Swing</h6>
+						<button type="button" class="btn btn-primary animated my-swing">Primary</button>
+						<button type="button" class="btn btn-secondary animated my-swing">Secondary</button>
+						<button type="button" class="btn btn-success animated my-swing">Success</button>
+						<button type="button" class="btn btn-info animated my-swing">Info</button>
+						<button type="button" class="btn btn-warning animated my-swing">Warning</button>
+						<button type="button" class="btn btn-danger animated my-swing">Danger</button>
+						<button type="button" class="btn btn-dark animated my-swing">Dark</button>
+						<button type="button" class="btn btn-light animated my-swing">Light</button>
+					</div> 
+
+					<div class="card-body">
+						<h6 class="card-title">Wobble</h6>
+						<button type="button" class="btn btn-primary animated my-wobble">Primary</button>
+						<button type="button" class="btn btn-secondary animated my-wobble">Secondary</button>
+						<button type="button" class="btn btn-success animated my-wobble">Success</button>
+						<button type="button" class="btn btn-info animated my-wobble">Info</button>
+						<button type="button" class="btn btn-warning animated my-wobble">Warning</button>
+						<button type="button" class="btn btn-danger animated my-wobble">Danger</button>
+						<button type="button" class="btn btn-dark animated my-wobble">Dark</button>
+						<button type="button" class="btn btn-light animated my-wobble">Light</button>
+					</div> 
+
+					<div class="card-body">
+						<h6 class="card-title">Flip Out</h6>
+						<button type="button" class="btn btn-primary animated my-flipOut">Primary</button>
+						<button type="button" class="btn btn-secondary animated my-flipOut">Secondary</button>
+						<button type="button" class="btn btn-success animated my-flipOut">Success</button>
+						<button type="button" class="btn btn-info animated my-flipOut">Info</button>
+						<button type="button" class="btn btn-warning animated my-flipOut">Warning</button>
+						<button type="button" class="btn btn-danger animated my-flipOut">Danger</button>
+						<button type="button" class="btn btn-dark animated my-flipOut">Dark</button>
+						<button type="button" class="btn btn-light animated my-flipOut">Light</button>
+					</div>   
+
+					<div class="card-body">
+						<h6 class="card-title">Rotate</h6>
+						<button type="button" class="btn btn-primary animated my-rotate">Primary</button>
+						<button type="button" class="btn btn-secondary animated my-rotate">Secondary</button>
+						<button type="button" class="btn btn-success animated my-rotate">Success</button>
+						<button type="button" class="btn btn-info animated my-rotate">Info</button>
+						<button type="button" class="btn btn-warning animated my-rotate">Warning</button>
+						<button type="button" class="btn btn-danger animated my-rotate">Danger</button>
+						<button type="button" class="btn btn-dark animated my-rotate">Dark</button>
+						<button type="button" class="btn btn-light animated my-rotate">Light</button>
+					</div> 
+
+					<div class="card-body">
+						<h6 class="card-title">Icon Left</h6>
+						<button type="button" class="btn btn-primary">
+							<i class="fa fa-download"></i> Primary
+						</button>
+						<button type="button" class="btn btn-secondary">
+							<i class="fa fa-download"></i> Secondary
+						</button>
+						<button type="button" class="btn btn-success">
+							<i class="fa fa-download"></i> Success
+						</button>
+						<button type="button" class="btn btn-info">
+							<i class="fa fa-download"></i> Info
+						</button>
+						<button type="button" class="btn btn-warning">
+							<i class="fa fa-download"></i> Warning
+						</button>
+						<button type="button" class="btn btn-danger">
+							<i class="fa fa-download"></i> Danger
+						</button>
+						<button type="button" class="btn btn-dark">
+							<i class="fa fa-download"></i> Dark
+						</button>
+						<button type="button" class="btn btn-light">
+							<i class="fa fa-download"></i> Light
+						</button>
+					</div> 
+
+					<div class="card-body">
+						<h6 class="card-title">Icon Right</h6>
+						<button type="button" class="btn btn-primary">
+							Primary <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-secondary">
+							Secondary <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-success">
+							Success <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-info">
+							Info <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-warning">
+							Warning <i class="fa fa-download"></i>
+						</button>
+						<button type="button" class="btn btn-danger">
+							Danger <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-dark">
+							Dark <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-light">
+							Light <i class="fa fa-download"></i> 
+						</button>
+					</div> 
+
+					<div class="card-body">
+						<h6 class="card-title">Square Icon</h6>
+						<button type="button" class="btn btn-primary">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-secondary">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-success">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-info">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-warning">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-danger">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-dark">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-light">
+							<i class="fa fa-share"></i>
+						</button>
+					</div>
+
+					<div class="card-body">
+						<h6 class="card-title">Circle Icon</h6>
+						<button type="button" class="btn btn-primary rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-secondary rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-success rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-info rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-warning rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-danger rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-dark rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-light rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+					</div>
+
+					<div class="card-body">
+						<h6 class="card-title">Pill Button</h6>
+						<button type="button" class="btn btn-primary rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-secondary rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-success rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-info rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-warning rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-danger rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-dark rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-light rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+					</div>
+
+				</div> 
+			</div>	
+
+
+			<div id="buttonOutline" class="col-sm-6 my-5 mx-auto">
+				<div class="card">
+					<h2 class="px-5 pt-5 card-title m-0">Button Outline Styles</h2>
+					<p class="small text-danger mx-5 m-0">Hover or Click to see more effect</p>
+
+					<div class="card-body mt-5">
+						<h6 class="card-title">Rounded</h6>
+						<button type="button" class="btn btn-outline-primary">Primary</button>
+						<button type="button" class="btn btn-outline-secondary">Secondary</button>
+						<button type="button" class="btn btn-outline-success">Success</button>
+						<button type="button" class="btn btn-outline-info">Info</button>
+						<button type="button" class="btn btn-outline-warning">Warning</button>
+						<button type="button" class="btn btn-outline-danger">Danger</button>
+						<button type="button" class="btn btn-outline-dark">Dark</button>
+					</div>    
+
+					<div class="card-body">
+						<h6 class="card-title">Normal</h6>
+						<button type="button" class="btn btn-outline-primary rounded-0">Primary</button>
+						<button type="button" class="btn btn-outline-secondary rounded-0">Secondary</button>
+						<button type="button" class="btn btn-outline-success rounded-0">Success</button>
+						<button type="button" class="btn btn-outline-info rounded-0">Info</button>
+						<button type="button" class="btn btn-outline-warning rounded-0">Warning</button>
+						<button type="button" class="btn btn-outline-danger rounded-0">Danger</button>
+						<button type="button" class="btn btn-outline-dark rounded-0">Dark</button>
+					</div>   
+
+					<div class="card-body">
+						<h6 class="card-title">Flip</h6>
+						<button type="button" class="btn btn-outline-primary flip">Primary</button>
+						<button type="button" class="btn btn-outline-secondary flip">Secondary</button>
+						<button type="button" class="btn btn-outline-success flip">Success</button>
+						<button type="button" class="btn btn-outline-info flip">Info</button>
+						<button type="button" class="btn btn-outline-warning flip">Warning</button>
+						<button type="button" class="btn btn-outline-danger flip">Danger</button>
+						<button type="button" class="btn btn-outline-dark flip">Dark</button>
+					</div>  
+
+					<div class="card-body">
+						<h6 class="card-title">Bounce</h6>
+						<button type="button" class="btn btn-outline-primary animated my-bounce">Primary</button>
+						<button type="button" class="btn btn-outline-secondary animated my-bounce">Secondary</button>
+						<button type="button" class="btn btn-outline-success animated my-bounce">Success</button>
+						<button type="button" class="btn btn-outline-info animated my-bounce">Info</button>
+						<button type="button" class="btn btn-outline-warning animated my-bounce">Warning</button>
+						<button type="button" class="btn btn-outline-danger animated my-bounce">Danger</button>
+						<button type="button" class="btn btn-outline-dark animated my-bounce">Dark</button>
+					</div>
+
+					<div class="card-body">
+						<h6 class="card-title">Waves Effect</h6>
+						<button type="button" class="btn btn-outline-primary waves-effect">Primary</button>
+						<button type="button" class="btn btn-outline-secondary waves-effect">Secondary</button>
+						<button type="button" class="btn btn-outline-success waves-effect">Success</button>
+						<button type="button" class="btn btn-outline-info waves-effect">Info</button>
+						<button type="button" class="btn btn-outline-warning waves-effect">Warning</button>
+						<button type="button" class="btn btn-outline-danger waves-effect">Danger</button>
+						<button type="button" class="btn btn-outline-dark waves-effect">Dark</button>
+						<div class="card-text">
+							<p class="small text-danger m-0">You can use the waves-effect for all Elements</p>
+						</div>
+					</div> 
+
+					<div class="card-body">
+						<h6 class="card-title">Waves Effect Light</h6>
+						<button type="button" class="btn btn-outline-primary waves-effect waves-light">Primary</button>
+						<button type="button" class="btn btn-outline-secondary waves-effect waves-light">Secondary</button>
+						<button type="button" class="btn btn-outline-success waves-effect waves-light">Success</button>
+						<button type="button" class="btn btn-outline-info waves-effect waves-light">Info</button>
+						<button type="button" class="btn btn-outline-warning waves-effect waves-light">Warning</button>
+						<button type="button" class="btn btn-outline-danger waves-effect waves-light">Danger</button>
+						<button type="button" class="btn btn-outline-dark waves-effect waves-light">Dark</button>
+						<div class="card-text">
+							<p class="small text-danger m-0">also you can use waves-light affter .waves-effect for all Elemetns</p>
+						</div>
+					</div> 
+
+					<div class="card-body">
+						<h6 class="card-title">Flash</h6>
+						<button type="button" class="btn btn-outline-primary animated my-flash">Primary</button>
+						<button type="button" class="btn btn-outline-secondary animated my-flash">Secondary</button>
+						<button type="button" class="btn btn-outline-success animated my-flash">Success</button>
+						<button type="button" class="btn btn-outline-info animated my-flash">Info</button>
+						<button type="button" class="btn btn-outline-warning animated my-flash">Warning</button>
+						<button type="button" class="btn btn-outline-danger animated my-flash">Danger</button>
+						<button type="button" class="btn btn-outline-dark animated my-flash">Dark</button>
+					</div>
+
+					<div class="card-body">
+						<h6 class="card-title">Shake Head</h6>
+						<button type="button" class="btn btn-outline-primary animated my-headShake">Primary</button>
+						<button type="button" class="btn btn-outline-secondary animated my-headShake">Secondary</button>
+						<button type="button" class="btn btn-outline-success animated my-headShake">Success</button>
+						<button type="button" class="btn btn-outline-info animated my-headShake">Info</button>
+						<button type="button" class="btn btn-outline-warning animated my-headShake">Warning</button>
+						<button type="button" class="btn btn-outline-danger animated my-headShake">Danger</button>
+						<button type="button" class="btn btn-outline-dark animated my-headShake">Dark</button>
+					</div> 
+
+					<div class="card-body">
+						<h6 class="card-title">Swing</h6>
+						<button type="button" class="btn btn-outline-primary animated my-swing">Primary</button>
+						<button type="button" class="btn btn-outline-secondary animated my-swing">Secondary</button>
+						<button type="button" class="btn btn-outline-success animated my-swing">Success</button>
+						<button type="button" class="btn btn-outline-info animated my-swing">Info</button>
+						<button type="button" class="btn btn-outline-warning animated my-swing">Warning</button>
+						<button type="button" class="btn btn-outline-danger animated my-swing">Danger</button>
+						<button type="button" class="btn btn-outline-dark animated my-swing">Dark</button>
+					</div> 
+
+					<div class="card-body">
+						<h6 class="card-title">Wobble</h6>
+						<button type="button" class="btn btn-outline-primary animated my-wobble">Primary</button>
+						<button type="button" class="btn btn-outline-secondary animated my-wobble">Secondary</button>
+						<button type="button" class="btn btn-outline-success animated my-wobble">Success</button>
+						<button type="button" class="btn btn-outline-info animated my-wobble">Info</button>
+						<button type="button" class="btn btn-outline-warning animated my-wobble">Warning</button>
+						<button type="button" class="btn btn-outline-danger animated my-wobble">Danger</button>
+						<button type="button" class="btn btn-outline-dark animated my-wobble">Dark</button>
+					</div>   
+
+					<div class="card-body">
+						<h6 class="card-title">Flip Out</h6>
+						<button type="button" class="btn btn-outline-primary animated my-flipOut">Primary</button>
+						<button type="button" class="btn btn-outline-secondary animated my-flipOut">Secondary</button>
+						<button type="button" class="btn btn-outline-success animated my-flipOut">Success</button>
+						<button type="button" class="btn btn-outline-info animated my-flipOut">Info</button>
+						<button type="button" class="btn btn-outline-warning animated my-flipOut">Warning</button>
+						<button type="button" class="btn btn-outline-danger animated my-flipOut">Danger</button>
+						<button type="button" class="btn btn-outline-dark animated my-flipOut">Dark</button>
+					</div>  
+
+					<div class="card-body">
+						<h6 class="card-title">Rotate</h6>
+						<button type="button" class="btn btn-outline-primary animated my-rotate">Primary</button>
+						<button type="button" class="btn btn-outline-secondary animated my-rotate">Secondary</button>
+						<button type="button" class="btn btn-outline-success animated my-rotate">Success</button>
+						<button type="button" class="btn btn-outline-info animated my-rotate">Info</button>
+						<button type="button" class="btn btn-outline-warning animated my-rotate">Warning</button>
+						<button type="button" class="btn btn-outline-danger animated my-rotate">Danger</button>
+						<button type="button" class="btn btn-outline-dark animated my-rotate">Dark</button>
+					</div>
+
+					<div class="card-body">
+						<h6 class="card-title">Icon Left</h6>
+						<button type="button" class="btn btn-outline-primary">
+							<i class="fa fa-download"></i> Primary
+						</button>
+						<button type="button" class="btn btn-outline-secondary">
+							<i class="fa fa-download"></i> Secondary
+						</button>
+						<button type="button" class="btn btn-outline-success">
+							<i class="fa fa-download"></i> Success
+						</button>
+						<button type="button" class="btn btn-outline-info">
+							<i class="fa fa-download"></i> Info
+						</button>
+						<button type="button" class="btn btn-outline-warning">
+							<i class="fa fa-download"></i> Warning
+						</button>
+						<button type="button" class="btn btn-outline-danger">
+							<i class="fa fa-download"></i> Danger
+						</button>
+						<button type="button" class="btn btn-outline-dark">
+							<i class="fa fa-download"></i> Dark
+						</button>
+					</div> 
+
+					<div class="card-body">
+						<h6 class="card-title">Icon Left</h6>
+						<button type="button" class="btn btn-outline-primary">
+							Primary <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-outline-secondary">
+							Secondary <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-outline-success">
+							Success <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-outline-info">
+							Info <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-outline-warning">
+							Warning <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-outline-danger">
+							Danger <i class="fa fa-download"></i> 
+						</button>
+						<button type="button" class="btn btn-outline-dark">
+							Dark <i class="fa fa-download"></i> 
+						</button>
+					</div>  
+
+					<div class="card-body">
+						<h6 class="card-title">Square Icon</h6>
+						<button type="button" class="btn btn-outline-primary">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-secondary">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-success">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-info">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-warning">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-danger">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-dark">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-light">
+							<i class="fa fa-share"></i>
+						</button>
+					</div>
+
+					<div class="card-body">
+						<h6 class="card-title">Circle Icon</h6>
+						<button type="button" class="btn btn-outline-primary rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-secondary rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-success rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-info rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-warning rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-danger rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-dark rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-light rounded-circle">
+							<i class="fa fa-share"></i>
+						</button>
+					</div>
+
+					<div class="card-body">
+						<h6 class="card-title">Pill Button</h6>
+						<button type="button" class="btn btn-outline-primary rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-secondary rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-success rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-info rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-warning rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-danger rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-dark rounded-pill">
+							Button <i class="fa fa-share"></i>
+						</button>
+						<button type="button" class="btn btn-outline-light rounded-pill">
+							Button <i class="fa fa-share"></i> 
+						</button>
+					</div>
+
+
+
+				</div>       
+			</div>
+
+		</div>
+		
+		<div id="buttonBasicGold" class="container">
+			<div class="card border-0 text-center">
+				<div class="card-body mt-5">
+					<h6 class="card-title">Gold</h6>
+					<button type="button" class="btn btn-join flip rounded-pill">Flip</button>
+					<button type="button" class="btn btn-join animated my-rotate rounded-pill">Rotate</button>
+					<button type="button" class="btn btn-join animated my-flipOut rounded-pill">Flip Out</button>
+					<button type="button" class="btn btn-join animated my-wobble rounded-pill">Wobble</button>
+					<button type="button" class="btn btn-join animated my-swing rounded-pill">Swing</button>
+					<button type="button" class="btn btn-join animated my-headShake rounded-pill">Shake Head</button>
+					<button type="button" class="btn btn-join animated my-flash rounded-pill">Flash</button>
+					<button type="button" class="btn btn-join animated my-bounce rounded-pill">Bounce</button>
+				</div>   
+			</div>
+		</div>
+	</main>
+
+
+
+
+
+
+
+
+
+
+
+	<footer class="row site-footer mt-6 text-light bg-transparent">
+		<ul class="list-unstyled col-md-4 col-sm-12 small">
+			<li><h4>Assist</h4></li>
+			<li><a class="ml-2" href="">Home</a></li>
+			<li><a class="ml-2" href="">Terms</a></li>
+			<li><a class="ml-2" href="">Rules</a></li>
+			<li><a class="ml-2" href="">FAQ</a></li>
+			<li><a class="ml-2" href="">Documents</a></li>
+		</ul>
+		<ul class="list-unstyled col-md-4 col-sm-12">
+			<li><h4>About ME</h4></li>
+			<li>
+				<p class="small w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.</p>
+			</li>
+		</ul>
+		<ul class="list-unstyled col-md-4 col-sm-12">
+			<li><h4>Contact</h4></li>
+			<li>
+				<form class="form-group">
+					<input class="form-control-sm custom-control f-contact mb-1" type="text" name="name" placeholder="Enter Your Name">
+					<input class="form-control-sm custom-control f-contact mb-1" type="email" name="email" placeholder="Enter Your eMail">
+					<textarea class="custom-control ft-contact" placeholder="Leave a Comment"></textarea>
+					<a class="btn mt-1 float-right"><i class="fa fa-share"></i></a>
+				</form>
+			</li>
+		</ul>
+
+
+		<p class="lead text-center col-12 mt-2">Copyright <i class="far fa-copyright"></i>&nbsp; 2010-2019</p>
+
+	</footer>
+
+
+
+
+
+	<script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/popper.js"></script>
+	<script src="assets/js/waves.min.js"></script>
+	<script src="assets/font/fontawesome/js/all.js"></script>
+	<script src="assets/component/wow-js/dist/wow.min.js"></script>
+	<script src="assets/js/myJS.js"></script>
+
+
+</body>
+</html>
